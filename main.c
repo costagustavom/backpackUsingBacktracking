@@ -89,7 +89,7 @@ void outputInteger(){
 
   for(i = 0; i < n ; i++){
     if(item[i].escolhido != 0)
-      printf("i%d\n", item[i].chave, item[i].valor);
+      printf("i%d\n", item[i].chave);
   }
 }
 
